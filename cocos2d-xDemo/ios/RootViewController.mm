@@ -3,7 +3,7 @@
 //  cocos2d-xDemo
 //
 //  Created by geek on 13-6-19.
-//  Copyright __MyCompanyName__ 2013年. All rights reserved.
+//  Copyright __Steve-Soft__ 2013年. All rights reserved.
 //
 
 #import "RootViewController.h"

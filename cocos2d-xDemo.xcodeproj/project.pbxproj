@@ -220,6 +220,11 @@
 		938562F217718CAD00E0EA96 /* cocos2dx-ext_public.defines.txt in Resources */ = {isa = PBXBuildFile; fileRef = 938562F117718CAD00E0EA96 /* cocos2dx-ext_public.defines.txt */; };
 		938562F817718CAD00E0EA96 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 938562F717718CAD00E0EA96 /* AppDelegate.cpp */; };
 		938562FB17718CAD00E0EA96 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 938562FA17718CAD00E0EA96 /* HelloWorldScene.cpp */; };
+		93B4E7E41772A73C00ADA3FC /* image-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93B4E7E01772A73C00ADA3FC /* image-hd.plist */; };
+		93B4E7E51772A73C00ADA3FC /* image-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 93B4E7E11772A73C00ADA3FC /* image-hd.png */; };
+		93B4E7E61772A73C00ADA3FC /* image.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93B4E7E21772A73C00ADA3FC /* image.plist */; };
+		93B4E7E71772A73C00ADA3FC /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 93B4E7E31772A73C00ADA3FC /* image.png */; };
+		93B4E7EA1772C22C00ADA3FC /* System.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93B4E7E81772C22C00ADA3FC /* System.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -690,6 +695,12 @@
 		938562F717718CAD00E0EA96 /* AppDelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = Classes/AppDelegate.cpp; sourceTree = "<group>"; };
 		938562F917718CAD00E0EA96 /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
 		938562FA17718CAD00E0EA96 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
+		93B4E7E01772A73C00ADA3FC /* image-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "image-hd.plist"; path = "Resources/image-hd.plist"; sourceTree = "<group>"; };
+		93B4E7E11772A73C00ADA3FC /* image-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "image-hd.png"; path = "Resources/image-hd.png"; sourceTree = "<group>"; };
+		93B4E7E21772A73C00ADA3FC /* image.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = image.plist; path = Resources/image.plist; sourceTree = "<group>"; };
+		93B4E7E31772A73C00ADA3FC /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image.png; path = Resources/image.png; sourceTree = "<group>"; };
+		93B4E7E81772C22C00ADA3FC /* System.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = System.cpp; sourceTree = "<group>"; };
+		93B4E7E91772C22C00ADA3FC /* System.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = System.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -760,6 +771,10 @@
 		9385602817718CA900E0EA96 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				93B4E7E01772A73C00ADA3FC /* image-hd.plist */,
+				93B4E7E11772A73C00ADA3FC /* image-hd.png */,
+				93B4E7E21772A73C00ADA3FC /* image.plist */,
+				93B4E7E31772A73C00ADA3FC /* image.png */,
 				9385602917718CA900E0EA96 /* CloseNormal.png */,
 				9385602B17718CA900E0EA96 /* CloseSelected.png */,
 				9385602D17718CA900E0EA96 /* Default.png */,
@@ -1694,6 +1709,8 @@
 				938562F717718CAD00E0EA96 /* AppDelegate.cpp */,
 				938562F917718CAD00E0EA96 /* HelloWorldScene.h */,
 				938562FA17718CAD00E0EA96 /* HelloWorldScene.cpp */,
+				93B4E7E81772C22C00ADA3FC /* System.cpp */,
+				93B4E7E91772C22C00ADA3FC /* System.h */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -1763,6 +1780,10 @@
 				9385624417718CAD00E0EA96 /* project.pbxproj in Resources */,
 				938562F017718CAD00E0EA96 /* cocos2dx-ext.mkf in Resources */,
 				938562F217718CAD00E0EA96 /* cocos2dx-ext_public.defines.txt in Resources */,
+				93B4E7E41772A73C00ADA3FC /* image-hd.plist in Resources */,
+				93B4E7E51772A73C00ADA3FC /* image-hd.png in Resources */,
+				93B4E7E61772A73C00ADA3FC /* image.plist in Resources */,
+				93B4E7E71772A73C00ADA3FC /* image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1961,6 +1982,7 @@
 				938562EC17718CAD00E0EA96 /* CCPhysicsSprite.cpp in Sources */,
 				938562F817718CAD00E0EA96 /* AppDelegate.cpp in Sources */,
 				938562FB17718CAD00E0EA96 /* HelloWorldScene.cpp in Sources */,
+				93B4E7EA1772C22C00ADA3FC /* System.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2094,6 +2116,7 @@
 				9385630017718CAD00E0EA96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
