@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9301257B17798EBF00D70CDB /* MainScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9301257917798EBF00D70CDB /* MainScene.cpp */; };
 		9385601817718CA900E0EA96 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9385601717718CA900E0EA96 /* QuartzCore.framework */; };
 		9385601A17718CA900E0EA96 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9385601917718CA900E0EA96 /* OpenGLES.framework */; };
 		9385601C17718CA900E0EA96 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9385601B17718CA900E0EA96 /* OpenAL.framework */; };
@@ -220,6 +221,11 @@
 		938562F217718CAD00E0EA96 /* cocos2dx-ext_public.defines.txt in Resources */ = {isa = PBXBuildFile; fileRef = 938562F117718CAD00E0EA96 /* cocos2dx-ext_public.defines.txt */; };
 		938562F817718CAD00E0EA96 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 938562F717718CAD00E0EA96 /* AppDelegate.cpp */; };
 		938562FB17718CAD00E0EA96 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 938562FA17718CAD00E0EA96 /* HelloWorldScene.cpp */; };
+		93A8698F177D1E7C00A769C2 /* btnLogin.png in Resources */ = {isa = PBXBuildFile; fileRef = 93A8698D177D1E7C00A769C2 /* btnLogin.png */; };
+		93A86990177D1E7C00A769C2 /* btnLoging.png in Resources */ = {isa = PBXBuildFile; fileRef = 93A8698E177D1E7C00A769C2 /* btnLoging.png */; };
+		93A86993177D388C00A769C2 /* Started.png in Resources */ = {isa = PBXBuildFile; fileRef = 93A86991177D388C00A769C2 /* Started.png */; };
+		93A86994177D388C00A769C2 /* Start.png in Resources */ = {isa = PBXBuildFile; fileRef = 93A86992177D388C00A769C2 /* Start.png */; };
+		93A86997177D73FF00A769C2 /* CardControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93A86995177D73FF00A769C2 /* CardControl.cpp */; };
 		93B4E7E41772A73C00ADA3FC /* image-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93B4E7E01772A73C00ADA3FC /* image-hd.plist */; };
 		93B4E7E51772A73C00ADA3FC /* image-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 93B4E7E11772A73C00ADA3FC /* image-hd.png */; };
 		93B4E7E61772A73C00ADA3FC /* image.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93B4E7E21772A73C00ADA3FC /* image.plist */; };
@@ -228,6 +234,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9301257917798EBF00D70CDB /* MainScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainScene.cpp; sourceTree = "<group>"; };
+		9301257A17798EBF00D70CDB /* MainScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScene.h; sourceTree = "<group>"; };
 		9385601417718CA900E0EA96 /* cocos2d-xDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cocos2d-xDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9385601717718CA900E0EA96 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		9385601917718CA900E0EA96 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -690,11 +698,16 @@
 		938562ED17718CAD00E0EA96 /* CCPhysicsSprite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CCPhysicsSprite.h; path = libs/extensions/physics_nodes/CCPhysicsSprite.h; sourceTree = "<group>"; };
 		938562EF17718CAD00E0EA96 /* cocos2dx-ext.mkf */ = {isa = PBXFileReference; lastKnownFileType = text; name = "cocos2dx-ext.mkf"; path = "libs/extensions/proj.marmalade/cocos2dx-ext.mkf"; sourceTree = "<group>"; };
 		938562F117718CAD00E0EA96 /* cocos2dx-ext_public.defines.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = "cocos2dx-ext_public.defines.txt"; path = "libs/extensions/proj.marmalade/cocos2dx-ext_public.defines.txt"; sourceTree = "<group>"; };
-		938562F417718CAD00E0EA96 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 		938562F617718CAD00E0EA96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		938562F717718CAD00E0EA96 /* AppDelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = Classes/AppDelegate.cpp; sourceTree = "<group>"; };
 		938562F917718CAD00E0EA96 /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
 		938562FA17718CAD00E0EA96 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
+		93A8698D177D1E7C00A769C2 /* btnLogin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btnLogin.png; path = Resources/btnLogin.png; sourceTree = "<group>"; };
+		93A8698E177D1E7C00A769C2 /* btnLoging.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btnLoging.png; path = Resources/btnLoging.png; sourceTree = "<group>"; };
+		93A86991177D388C00A769C2 /* Started.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Started.png; path = Resources/Started.png; sourceTree = "<group>"; };
+		93A86992177D388C00A769C2 /* Start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Start.png; path = Resources/Start.png; sourceTree = "<group>"; };
+		93A86995177D73FF00A769C2 /* CardControl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CardControl.cpp; sourceTree = "<group>"; };
+		93A86996177D73FF00A769C2 /* CardControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardControl.h; sourceTree = "<group>"; };
 		93B4E7E01772A73C00ADA3FC /* image-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "image-hd.plist"; path = "Resources/image-hd.plist"; sourceTree = "<group>"; };
 		93B4E7E11772A73C00ADA3FC /* image-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "image-hd.png"; path = "Resources/image-hd.png"; sourceTree = "<group>"; };
 		93B4E7E21772A73C00ADA3FC /* image.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = image.plist; path = Resources/image.plist; sourceTree = "<group>"; };
@@ -763,7 +776,6 @@
 				9385604017718CA900E0EA96 /* ios */,
 				9385604917718CA900E0EA96 /* libs */,
 				938562F517718CAD00E0EA96 /* Classes */,
-				938562F317718CAD00E0EA96 /* Supporting Files */,
 			);
 			path = "cocos2d-xDemo";
 			sourceTree = "<group>";
@@ -771,6 +783,10 @@
 		9385602817718CA900E0EA96 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				93A86991177D388C00A769C2 /* Started.png */,
+				93A86992177D388C00A769C2 /* Start.png */,
+				93A8698D177D1E7C00A769C2 /* btnLogin.png */,
+				93A8698E177D1E7C00A769C2 /* btnLoging.png */,
 				93B4E7E01772A73C00ADA3FC /* image-hd.plist */,
 				93B4E7E11772A73C00ADA3FC /* image-hd.png */,
 				93B4E7E21772A73C00ADA3FC /* image.plist */,
@@ -1694,23 +1710,19 @@
 			name = proj.marmalade;
 			sourceTree = "<group>";
 		};
-		938562F317718CAD00E0EA96 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				938562F417718CAD00E0EA96 /* Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		938562F517718CAD00E0EA96 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				93A86995177D73FF00A769C2 /* CardControl.cpp */,
+				93A86996177D73FF00A769C2 /* CardControl.h */,
 				938562F617718CAD00E0EA96 /* AppDelegate.h */,
 				938562F717718CAD00E0EA96 /* AppDelegate.cpp */,
 				938562F917718CAD00E0EA96 /* HelloWorldScene.h */,
 				938562FA17718CAD00E0EA96 /* HelloWorldScene.cpp */,
 				93B4E7E81772C22C00ADA3FC /* System.cpp */,
 				93B4E7E91772C22C00ADA3FC /* System.h */,
+				9301257917798EBF00D70CDB /* MainScene.cpp */,
+				9301257A17798EBF00D70CDB /* MainScene.h */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -1784,6 +1796,10 @@
 				93B4E7E51772A73C00ADA3FC /* image-hd.png in Resources */,
 				93B4E7E61772A73C00ADA3FC /* image.plist in Resources */,
 				93B4E7E71772A73C00ADA3FC /* image.png in Resources */,
+				93A8698F177D1E7C00A769C2 /* btnLogin.png in Resources */,
+				93A86990177D1E7C00A769C2 /* btnLoging.png in Resources */,
+				93A86993177D388C00A769C2 /* Started.png in Resources */,
+				93A86994177D388C00A769C2 /* Start.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1983,6 +1999,8 @@
 				938562F817718CAD00E0EA96 /* AppDelegate.cpp in Sources */,
 				938562FB17718CAD00E0EA96 /* HelloWorldScene.cpp in Sources */,
 				93B4E7EA1772C22C00ADA3FC /* System.cpp in Sources */,
+				9301257B17798EBF00D70CDB /* MainScene.cpp in Sources */,
+				93A86997177D73FF00A769C2 /* CardControl.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
