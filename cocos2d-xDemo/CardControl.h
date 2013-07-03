@@ -11,6 +11,7 @@
 
 #include <iostream>
 #include "cocos2d.h"
+#include <stdio.h>
 //X arrangement
 enum enXCollocateMode
 {
@@ -78,7 +79,7 @@ public:
 
     int SetCardData(const int bCardData[],int dwCardCount);
 
-    int GetCardData(tagCardItem CardItemArrary[],int dwCardCount);
+    int GetCardData(tagCardItem CardItemArrary[],int dwMaxCount);
 
     int SetCardItem(const tagCardItem CardItemArray[],int dwCardCount);
 
