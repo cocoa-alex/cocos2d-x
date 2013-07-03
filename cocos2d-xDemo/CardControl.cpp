@@ -45,18 +45,18 @@ void CardControl::SetDirection(bool bHorizontal)
 
 void CardControl::ShootAllCard(bool bShoot)
 {
-    //bool bRectify=false;
+    bool bRectify=false;
     
-    //tagCardItem* pCardItem=NULL;
+    tagCardItem* pCardItem=NULL;
     
-    //int dwCardCount=(int)m_CardDataItem->count();
+    int dwCardCount=(int)m_CardDataItem->count();
     
-   // m_CardDataItem=new CCArray(dwCardCount);
+    m_CardDataItem=new CCArray(dwCardCount);
     
-    //for (int i=0; i<dwCardCount; i++) {
+    for (int i=0; i<dwCardCount; i++) {
         
-     //   pCardItem=&m_CardDataItem[i];
-    //}
+        pCardItem=&m_CardDataItem[i];
+    }
     
     
 }
